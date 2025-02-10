@@ -70,8 +70,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -101,8 +101,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -156,8 +156,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/archiver':
         specifier: 6.0.2
         version: 6.0.2
@@ -205,8 +205,8 @@ importers:
         version: 1.48.2
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -241,8 +241,8 @@ importers:
         version: link:../wallets/metamask
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -271,15 +271,15 @@ importers:
         specifier: 1.48.2
         version: 1.48.2
       '@synthetixio/synpress-core':
-        specifier: 0.0.5
-        version: 0.0.5(@playwright/test@1.48.2)
+        specifier: 0.0.6
+        version: 0.0.6(@playwright/test@1.48.2)
       viem:
         specifier: 2.9.9
         version: 2.9.9(typescript@5.3.3)(zod@3.23.8)
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -321,8 +321,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.5
-        version: 0.0.5
+        specifier: 0.0.6
+        version: 0.0.6
       '@types/fs-extra':
         specifier: 11.0.4
         version: 11.0.4
@@ -1509,13 +1509,13 @@ packages:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
 
-  '@synthetixio/synpress-core@0.0.5':
-    resolution: {integrity: sha512-Y+JUEYbGIJZQaxL04nDV4Fd0fsnjFUsYR4NPfJqe2EradAJIJ5l1zL1KXWpGU4vPqbubJHZd24A6hXlX6wxESA==}
+  '@synthetixio/synpress-core@0.0.6':
+    resolution: {integrity: sha512-Q4XU0MdJ1IhUIin+fi2AQyxefPUV8oo9CmLNOx3Cy4DagjGkm6GqPRIHXFsnQ6x7asw+pIrO0SmylEoKFwyO/A==}
     peerDependencies:
       '@playwright/test': 1.48.2
 
-  '@synthetixio/synpress-tsconfig@0.0.5':
-    resolution: {integrity: sha512-CYxQ2JKxL/vj3+ui5j+6eBXP0mheuTKVPFcWhakkUXYC3V2ZcRbIlDJrQVsD2bb5a26qNhl8hIrnfqySH3uJjA==}
+  '@synthetixio/synpress-tsconfig@0.0.6':
+    resolution: {integrity: sha512-haAKTxnw0cLTywf63C6SrQa7IDtAcRK6rUGJxD029M6QVaszp7r/5aL7JDEKY/7abG2d+ih0jpYyQFPs1XHOPg==}
 
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
@@ -6561,11 +6561,11 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@synthetixio/synpress-core@0.0.5(@playwright/test@1.48.2)':
+  '@synthetixio/synpress-core@0.0.6(@playwright/test@1.48.2)':
     dependencies:
       '@playwright/test': 1.48.2
 
-  '@synthetixio/synpress-tsconfig@0.0.5': {}
+  '@synthetixio/synpress-tsconfig@0.0.6': {}
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:
