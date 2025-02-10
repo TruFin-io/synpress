@@ -1,5 +1,14 @@
 # @synthetixio/synpress-metamask
 
+## 0.0.6
+
+### Patch Changes
+
+- Release
+- Updated dependencies
+  - @synthetixio/synpress-cache@0.0.6
+  - @synthetixio/synpress-core@0.0.6
+
 ## 0.0.5
 
 ### Patch Changes

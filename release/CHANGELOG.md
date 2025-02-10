@@ -1,5 +1,16 @@
 # @synthetixio/synpress
 
+## 4.0.5
+
+### Patch Changes
+
+- Release
+- Updated dependencies
+  - @synthetixio/synpress-cache@0.0.6
+  - @synthetixio/synpress-core@0.0.6
+  - @synthetixio/ethereum-wallet-mock@0.0.6
+  - @synthetixio/synpress-metamask@0.0.6
+
 ## 4.0.4
 
 ### Patch Changes
