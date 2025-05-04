@@ -377,8 +377,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.4
-        version: 0.0.4
+        specifier: 0.0.11
+        version: 0.0.11
       '@types/fs-extra':
         specifier: 11.0.4
         version: 11.0.4
@@ -1559,9 +1559,6 @@ packages:
 
   '@synthetixio/synpress-tsconfig@0.0.11':
     resolution: {integrity: sha512-bIb68uEFSQhSIeu229lezhK9ldhYsIwNfKAU5pGJlRSAwobcssa/ly90wKB30nl1B726pDKI7zLU0A0/E1H2ig==}
-
-  '@synthetixio/synpress-tsconfig@0.0.4':
-    resolution: {integrity: sha512-hbCj7Tr3fFt1oJ1ceu8aQeUgG8I8SHOUxM6V2sHHSK9+2caEKxg1ehqVBObY7Tt2X4WyZerJa92WPVpX/TKSRA==}
 
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
@@ -6262,8 +6259,6 @@ snapshots:
       '@playwright/test': 1.48.2
 
   '@synthetixio/synpress-tsconfig@0.0.11': {}
-
-  '@synthetixio/synpress-tsconfig@0.0.4': {}
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:
