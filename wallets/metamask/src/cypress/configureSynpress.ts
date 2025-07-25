@@ -110,24 +110,13 @@ export default function configureSynpress(
     getAccountAddress: () => metamask?.getAccountAddress(),
     addNewAccount: (accountName: string) => metamask?.addNewAccount(accountName),
     switchAccount: (accountName: string) => metamask?.switchAccount(accountName),
-    renameAccount: ({
-      currentAccountName,
-      newAccountName
-    }: {
-      currentAccountName: string
-      newAccountName: string
-    }) => metamask?.renameAccount({ currentAccountName, newAccountName }),
+    renameAccount: ({ currentAccountName, newAccountName }: { currentAccountName: string; newAccountName: string }) =>
+      metamask?.renameAccount({ currentAccountName, newAccountName }),
     resetAccount: () => metamask?.resetAccount(),
 
     // Network
     getNetwork: () => metamask?.getNetwork(),
-    switchNetwork: ({
-      networkName,
-      isTestnet = false
-    }: {
-      networkName: string
-      isTestnet?: boolean
-    }) =>
+    switchNetwork: ({ networkName, isTestnet = false }: { networkName: string; isTestnet?: boolean }) =>
       metamask?.switchNetwork({
         networkName,
         isTestnet
@@ -147,10 +136,8 @@ export default function configureSynpress(
     // Token
     deployToken: () => metamask?.deployToken(),
     addNewToken: () => metamask?.addNewToken(),
-    approveTokenPermission: (options?: {
-      spendLimit?: number | 'max'
-      gasSetting?: GasSettings
-    }) => metamask?.approveTokenPermission(options),
+    approveTokenPermission: (options?: { spendLimit?: number | 'max'; gasSetting?: GasSettings }) =>
+      metamask?.approveTokenPermission(options),
     rejectTokenPermission: () => metamask?.rejectTokenPermission(),
 
     // Encryption

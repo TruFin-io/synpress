@@ -33,7 +33,6 @@ test('should Sign and submit transaction', async ({ page, petra }) => {
   test.setTimeout(90_000)
 
   await connectPetraToTestDapp(page, petra)
-  await petra.toggleNetworkMode('testnet')
 
   await page.getByRole('button', { name: /^sign transaction$/i }).click()
   await petra.confirmTransaction()

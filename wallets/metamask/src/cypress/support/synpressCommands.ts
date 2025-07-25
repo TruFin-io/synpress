@@ -49,10 +49,7 @@ declare global {
 
       deployToken(): Chainable<void>
       addNewToken(): Chainable<void>
-      approveTokenPermission(options?: {
-        spendLimit?: number | 'max'
-        gasSetting?: GasSettings
-      }): Chainable<void>
+      approveTokenPermission(options?: { spendLimit?: number | 'max'; gasSetting?: GasSettings }): Chainable<void>
       rejectTokenPermission(): Chainable<void>
 
       providePublicEncryptionKey(): Chainable<void>
@@ -308,10 +305,7 @@ export default function synpressCommandsForMetaMask(): void {
    */
   Cypress.Commands.add(
     'approveTokenPermission',
-    (options?: {
-      spendLimit?: number | 'max'
-      gasSetting?: GasSettings
-    }) => {
+    (options?: { spendLimit?: number | 'max'; gasSetting?: GasSettings }) => {
       return cy.task('approveTokenPermission', options)
     }
   )
