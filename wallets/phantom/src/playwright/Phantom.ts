@@ -205,9 +205,7 @@ export class Phantom extends PhantomAbstract {
    * @param options - Optional gas settings for the transaction.
    * @throws {Error} If extensionId is not set.
    */
-  async confirmTransaction(options?: {
-    gasSetting?: GasSettings
-  }): Promise<void> {
+  async confirmTransaction(options?: { gasSetting?: GasSettings }): Promise<void> {
     if (!this.extensionId) {
       throw NO_EXTENSION_ID_ERROR
     }
@@ -234,10 +232,7 @@ export class Phantom extends PhantomAbstract {
    * @param options - Optional settings for the approval.
    * @throws {Error} If extensionId is not set.
    */
-  async approveTokenPermission(options?: {
-    spendLimit?: 'max' | number
-    gasSetting?: GasSettings
-  }): Promise<void> {
+  async approveTokenPermission(options?: { spendLimit?: 'max' | number; gasSetting?: GasSettings }): Promise<void> {
     if (!this.extensionId) {
       throw NO_EXTENSION_ID_ERROR
     }

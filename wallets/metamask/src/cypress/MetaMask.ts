@@ -202,13 +202,7 @@ export default class MetaMask {
    * @param options.chainId - The chain ID of the Anvil node
    * @returns True if the connection was successful, false otherwise
    */
-  async connectToAnvil({
-    rpcUrl,
-    chainId
-  }: {
-    rpcUrl: string
-    chainId: number
-  }): Promise<boolean> {
+  async connectToAnvil({ rpcUrl, chainId }: { rpcUrl: string; chainId: number }): Promise<boolean> {
     try {
       await this.metamaskPlaywright.addNetwork({
         name: 'Anvil',
@@ -273,10 +267,7 @@ export default class MetaMask {
    * @param options.gasSetting - Gas settings for the transaction
    * @returns True if the permission was approved, false otherwise
    */
-  async approveTokenPermission(options?: {
-    spendLimit?: number | 'max'
-    gasSetting?: GasSettings
-  }): Promise<boolean> {
+  async approveTokenPermission(options?: { spendLimit?: number | 'max'; gasSetting?: GasSettings }): Promise<boolean> {
     return await this.metamaskPlaywright
       .approveTokenPermission(options)
       .then(() => {
@@ -433,9 +424,7 @@ export default class MetaMask {
    * @param options - Optional gas settings for the transaction
    * @returns True if the transaction was confirmed successfully
    */
-  async confirmTransaction(options?: {
-    gasSetting?: GasSettings
-  }): Promise<boolean> {
+  async confirmTransaction(options?: { gasSetting?: GasSettings }): Promise<boolean> {
     await waitFor(
       () =>
         this.metamaskExtensionPage.locator(TransactionPage.nftApproveAllConfirmationPopup.approveButton).isVisible(),

@@ -109,10 +109,7 @@ export abstract class PhantomAbstract {
    * @param options.spendLimit - The spend limit to use for the permission.
    * @param options.gasSetting - The gas setting to use for the approval transaction.
    */
-  abstract approveTokenPermission(options?: {
-    spendLimit?: 'max' | number
-    gasSetting?: GasSettings
-  }): void
+  abstract approveTokenPermission(options?: { spendLimit?: 'max' | number; gasSetting?: GasSettings }): void
 
   /**
    * Rejects a permission request to spend tokens.

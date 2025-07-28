@@ -160,10 +160,7 @@ export abstract class MetaMaskAbstract {
    * @param options.spendLimit - The spend limit to use for the permission.
    * @param options.gasSetting - The gas setting to use for the approval transaction.
    */
-  abstract approveTokenPermission(options?: {
-    spendLimit?: 'max' | number
-    gasSetting?: GasSettings
-  }): void
+  abstract approveTokenPermission(options?: { spendLimit?: 'max' | number; gasSetting?: GasSettings }): void
 
   /**
    * Rejects a permission request to spend tokens.
@@ -248,9 +245,7 @@ export abstract class MetaMaskAbstract {
    * @experimental
    * @group Experimental Methods
    */
-  abstract confirmTransactionAndWaitForMining(options?: {
-    gasSetting?: GasSettings
-  }): void
+  abstract confirmTransactionAndWaitForMining(options?: { gasSetting?: GasSettings }): void
 
   /**
    * Opens the transaction details.
